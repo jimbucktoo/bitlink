@@ -43,7 +43,6 @@ function App() {
     var info = await fetch(fetchUrl, { headers })
       .then((response) => response.json())
       .then((jsonResponse) => {
-        console.log(jsonResponse);
         return jsonResponse;
       });
     obj.info = info;
@@ -67,8 +66,6 @@ function App() {
   const link = _.debounce((longUrl) => {
     shortenLink(state.longUrl, obj);
   }, 300);
-
-  console.log(state);
 
   return (
     <div className="App">

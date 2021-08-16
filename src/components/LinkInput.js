@@ -8,7 +8,6 @@ function LinkInput(props) {
 
   function OnInputChange(longUrl) {
     props.state.longUrl = longUrl;
-    console.log(props.state);
   }
 
   return (
