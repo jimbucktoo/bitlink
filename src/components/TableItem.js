@@ -1,7 +1,11 @@
 import React from "react";
-import "../style/App.css";
+import "../styles/App.css";
+import clickIcon from "../assets/svgs/click-icon.svg";
 
-function TableItem() {
+function TableItem(props) {
+  const data = props.state.data;
+  console.log(data);
+
   return <div></div>;
 }
 
