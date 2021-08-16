@@ -1,0 +1,189 @@
+html {
+    background-color: #68b1da;
+}
+
+.App {
+    margin-bottom: 0px;
+}
+
+.bitly-logo {
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    border-radius: 10px;
+}
+
+.nav-logo {
+    width: 93px;
+}
+
+.maintitle {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 37px;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    color: white;
+}
+
+.subtitle {
+    text-align: center;
+    margin-top: 10px;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    color: white;
+}
+
+.uiNavbar {
+    background-color: transparent;
+    margin-left: 3vw;
+    padding-top: 3vh;
+}
+
+.background {
+    background-color: #68b1da;
+    height: 0vh;
+    margin-bottom: 700px;
+}
+
+.background-image {
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 100vh;
+}
+
+.uiNavBrand {
+    margin-left: 15px;
+    font-family: "Pacifico", cursive;
+    font-size: 35px;
+    color: white;
+}
+
+.uiNavLogo {
+    height: 100%;
+    width: 100px;
+}
+
+.uiNavLinks {
+    color: white;
+    font-family: "Monda", sans-serif;
+}
+
+.uiNavLinks:hover {
+    color: lightblue;
+    font-family: "Monda", sans-serif;
+}
+
+.uiLinkInput {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: "Monda", sans-serif;
+}
+
+.uiInput {
+    width: 50%;
+}
+
+.uiInputBox {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    font-size: 14px !important;
+    height: auto !important;
+}
+
+.uiInputBox:focus {
+    border-color: #ee6123;
+    box-shadow: none;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    font-size: 14px !important;
+    height: auto !important;
+}
+
+.uiButton {
+    background-color: #ee6123;
+    font-size: 14px !important;
+    color: white;
+}
+
+.uiButton:focus {
+    background-color: #ee6123;
+    font-size: 14px !important;
+    color: white;
+    box-shadow: none;
+}
+
+.uiTable {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.table-list {
+    width: 50%;
+}
+
+.uiTableItem {
+    background-color: white;
+}
+
+.bitlink {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #ee6123 !important;
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
+
+.title {
+    color: #444444;
+}
+
+.long-url {
+    color: #9b9b9b;
+}
+
+.long-url:hover {
+    color: #444444;
+}
+
+.clicks {
+    margin-top: 30px;
+}
+
+.click-icon {
+    width: 30px;
+    margin-left: 5px;
+}
+
+.wrap {
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+}
+
+.ellipsis {
+    text-overflow: ellipsis;
+}
+
+@media (max-width: 575px) {
+    .bitly-logo {
+        display: block;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 10px;
+    }
+    .uiInput {
+        width: 90% !important;
+    }
+    .table-list {
+        width: 90%;
+    }
+}
