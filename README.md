@@ -6,6 +6,27 @@ Bitlink is a single page application developed to create dynamically shortened l
 
 -   [bitlink](https://bitlinks.surge.sh/) - bitlink official website.
 
+### Installing
+
+A step by step series of instructions that tell you how to get a development env running
+
+1. Install dependencies:
+
+```
+npm install
+```
+
+2. Build the project:
+
+```
+npm run build
+```
+3. Run the server:
+
+```
+npm start
+```
+
 ## Technologies
 
 -   [React](https://reactjs.org/) - React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies.
